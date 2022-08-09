@@ -86,10 +86,6 @@ void draw() {
     for(int wave = 0; wave < NUM_OF_WAVES; wave++) {
         drawWave(wave);
     }
-
-    if (frameCount % 800 == 0) {
-        randomize();
-    }
 }
 
 
